@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nilesli.github.io/sped-deidentification/sitemap.xml
