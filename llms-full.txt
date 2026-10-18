@@ -1,6 +1,6 @@
 # 學生資料去識別化工具
 
-> 本檔為 https://github.com/nilesli/sped-deidentification 的 README（完整操作說明），提供給 AI 搜尋與代理程式閱讀；網站摘要見 llms.txt。更新：2026-10-17
+> 本檔為 https://github.com/chuoneone/sped-deidentification 的 README（完整操作說明），提供給 AI 搜尋與代理程式閱讀；網站摘要見 llms.txt。更新：2026-10-18
 
 
 **給老師與特教人員的去識別化工具。** IEP、個案會議紀錄、輔導紀錄要交給 AI 或校外之前，先在瀏覽器裡把學生、家長、老師的姓名與學校、班級、學號、醫院、用藥、身分證、電話、地址遮掉；資料不出電腦。
@@ -22,28 +22,28 @@
 
 ## 目錄
 
-- [為什麼需要這個工具](https://github.com/nilesli/sped-deidentification#為什麼需要這個工具)
-- [功能特色](https://github.com/nilesli/sped-deidentification#功能特色)
-- [隱私與安全設計](https://github.com/nilesli/sped-deidentification#隱私與安全設計)
-- [快速開始](https://github.com/nilesli/sped-deidentification#快速開始)
-- [操作流程](https://github.com/nilesli/sped-deidentification#操作流程)
-  - [步驟 1：上傳文件或貼上文字](https://github.com/nilesli/sped-deidentification#步驟-1上傳文件或貼上文字)
-  - [步驟 2：檢視預覽與輸出設定](https://github.com/nilesli/sped-deidentification#步驟-2檢視預覽與輸出設定)
-  - [步驟 3：查看原文與實際編碼](https://github.com/nilesli/sped-deidentification#步驟-3查看原文與實際編碼)
-  - [步驟 4：人工調整](https://github.com/nilesli/sped-deidentification#步驟-4人工調整取消誤判整類取消新增漏抓)
-  - [步驟 5：下載去識別化文件與編碼表](https://github.com/nilesli/sped-deidentification#步驟-5下載去識別化文件與編碼表)
-  - [步驟 6：管理偵測規則](https://github.com/nilesli/sped-deidentification#步驟-6管理偵測規則)
-  - [步驟 7：用編碼表還原](https://github.com/nilesli/sped-deidentification#步驟-7用編碼表還原)
-- [支援格式與限制](https://github.com/nilesli/sped-deidentification#支援格式與限制)
-- [偵測規則](https://github.com/nilesli/sped-deidentification#偵測規則)
-- [輸出格式：標記與編碼表](https://github.com/nilesli/sped-deidentification#輸出格式標記與編碼表)
-- [範例檔下載與體驗](https://github.com/nilesli/sped-deidentification#範例檔下載與體驗)
-- [開發](https://github.com/nilesli/sped-deidentification#開發)
-- [測試與品質](https://github.com/nilesli/sped-deidentification#測試與品質)
-- [專案結構](https://github.com/nilesli/sped-deidentification#專案結構)
-- [部署](https://github.com/nilesli/sped-deidentification#部署)
-- [授權](https://github.com/nilesli/sped-deidentification#授權)
-- [關於作者](https://github.com/nilesli/sped-deidentification#關於作者)
+- [為什麼需要這個工具](https://github.com/chuoneone/sped-deidentification#為什麼需要這個工具)
+- [功能特色](https://github.com/chuoneone/sped-deidentification#功能特色)
+- [隱私與安全設計](https://github.com/chuoneone/sped-deidentification#隱私與安全設計)
+- [快速開始](https://github.com/chuoneone/sped-deidentification#快速開始)
+- [操作流程](https://github.com/chuoneone/sped-deidentification#操作流程)
+  - [步驟 1：上傳文件或貼上文字](https://github.com/chuoneone/sped-deidentification#步驟-1上傳文件或貼上文字)
+  - [步驟 2：檢視預覽與輸出設定](https://github.com/chuoneone/sped-deidentification#步驟-2檢視預覽與輸出設定)
+  - [步驟 3：查看原文與實際編碼](https://github.com/chuoneone/sped-deidentification#步驟-3查看原文與實際編碼)
+  - [步驟 4：人工調整](https://github.com/chuoneone/sped-deidentification#步驟-4人工調整取消誤判整類取消新增漏抓)
+  - [步驟 5：下載去識別化文件與編碼表](https://github.com/chuoneone/sped-deidentification#步驟-5下載去識別化文件與編碼表)
+  - [步驟 6：管理偵測規則](https://github.com/chuoneone/sped-deidentification#步驟-6管理偵測規則)
+  - [步驟 7：用編碼表還原](https://github.com/chuoneone/sped-deidentification#步驟-7用編碼表還原)
+- [支援格式與限制](https://github.com/chuoneone/sped-deidentification#支援格式與限制)
+- [偵測規則](https://github.com/chuoneone/sped-deidentification#偵測規則)
+- [輸出格式：標記與編碼表](https://github.com/chuoneone/sped-deidentification#輸出格式標記與編碼表)
+- [範例檔下載與體驗](https://github.com/chuoneone/sped-deidentification#範例檔下載與體驗)
+- [開發](https://github.com/chuoneone/sped-deidentification#開發)
+- [測試與品質](https://github.com/chuoneone/sped-deidentification#測試與品質)
+- [專案結構](https://github.com/chuoneone/sped-deidentification#專案結構)
+- [部署](https://github.com/chuoneone/sped-deidentification#部署)
+- [授權](https://github.com/chuoneone/sped-deidentification#授權)
+- [關於作者](https://github.com/chuoneone/sped-deidentification#關於作者)
 
 ---
 
@@ -92,12 +92,12 @@
 
 ## 快速開始
 
-**直接使用**：開啟 <https://nilesli.github.io/sped-deidentification/>，拖入檔案即可；沒有檔案的話，頁面下方有「用範例體驗」，一鍵載入 Word／PDF／掃描 PDF／Excel／Markdown 範例（見[範例檔下載與體驗](https://github.com/nilesli/sped-deidentification#範例檔下載與體驗)）。
+**直接使用**：開啟 <https://nilesli.github.io/sped-deidentification/>，拖入檔案即可；沒有檔案的話，頁面下方有「用範例體驗」，一鍵載入 Word／PDF／掃描 PDF／Excel／Markdown 範例（見[範例檔下載與體驗](https://github.com/chuoneone/sped-deidentification#範例檔下載與體驗)）。
 
 **本機執行**：
 
 ```bash
-git clone https://github.com/nilesli/sped-deidentification.git
+git clone https://github.com/chuoneone/sped-deidentification.git
 cd sped-deidentification
 npm install
 npm run dev        # http://localhost:5173
@@ -292,7 +292,7 @@ PDF 依原始座標逐頁排版（下圖 1 頁碼、2 頁面），表格與版�
 | 掃描文件 | 掃描 PDF | 5 頁純影像（需辨識）：中文信函（含手寫批註與機房照片）、藍筆手寫的會員申請表、橫式名冊表格、英文 Invoice（品項金額表、產品照片）、中英雙語名片；模擬掃描的灰階／彩色、輕微傾斜與紙張底色 | [scanned.pdf](https://nilesli.github.io/sped-deidentification/samples/scanned.pdf) |
 | 還原體驗 | Word + CSV | 已去識別化的契約書與其編碼表（在「還原」頁籤載入） | [contract.deid.docx](https://nilesli.github.io/sped-deidentification/samples/contract.deid.docx)、[contract.mapping.csv](https://nilesli.github.io/sped-deidentification/samples/contract.mapping.csv) |
 
-更多情境（人工調整、錯誤 CSV、自訂規則、格式邊界）的範例在 `examples/`，說明見 [examples/README.md](https://github.com/nilesli/sped-deidentification/blob/main/examples/README.md)；`npm run examples` 可重新產生全部範例。
+更多情境（人工調整、錯誤 CSV、自訂規則、格式邊界）的範例在 `examples/`，說明見 [examples/README.md](https://github.com/chuoneone/sped-deidentification/blob/main/examples/README.md)；`npm run examples` 可重新產生全部範例。
 
 ## 開發
 
@@ -351,7 +351,7 @@ SEO／AEO／GEO：`index.html` 內含 description、canonical、Open Graph／Twi
 - 字型 `public/fonts/NotoSansTC-Regular.ttf`：Noto Sans TC，© Google，[SIL Open Font License 1.1](https://openfontlicense.org/)。PDF 輸出時以自製的「稀疏子集」只內嵌用到的字形（`src/formats/ttf-subset.ts`，保留原始 glyph ID）；不使用 pdf-lib 內建 subset，因其對大型 CJK 字型的輸出在 macOS 預覽程式會顯示亂碼。
 - 文字辨識：[tesseract.js](https://github.com/naptha/tesseract.js) 與 tesseract.js-core（Apache-2.0），語言模型為 Tesseract `tessdata_best` 的 int 版本（Apache-2.0），建置時由 `vite.config.ts` 複製到站台的 `ocr/`。
 - 掃描範例：手寫字以 [霞鶩文楷 TC](https://github.com/lxgw/LxgwWenkaiTC)、英文簽名以 [Caveat](https://fonts.google.com/specimen/Caveat) 繪製（皆為 SIL OFL 1.1，只在產生範例時使用，網站不載入）；照片與標誌為 Codex 生成的圖片。
-- 本專案以 [MIT License](https://github.com/nilesli/sped-deidentification/blob/main/LICENSE) 授權，保留原作者 Dean Lin 的著作權聲明；學校與特教文件相關修改 © chuoneone。
+- 本專案以 [MIT License](https://github.com/chuoneone/sped-deidentification/blob/main/LICENSE) 授權，保留原作者 Dean Lin 的著作權聲明；學校與特教文件相關修改 © chuoneone。
 - 範例文件中的人名、公司、地址、電話、證號皆為程式產生的虛構資料。
 
 ## 原作者
