@@ -5,7 +5,7 @@
 
 **給老師與特教人員的去識別化工具。** IEP、個案會議紀錄、輔導紀錄要交給 AI 或校外之前，先在瀏覽器裡把學生、家長、老師的姓名與學校、班級、學號、醫院、用藥、身分證、電話、地址遮掉；資料不出電腦。
 
-🔗 **線上使用：<https://nilesli.github.io/sped-deidentification/>**
+🔗 **線上使用：<https://chuoneone.github.io/sped-deidentification/>**
 
 > 本專案改自 Dean Lin 的開源專案 [文件去識別化工具](https://github.com/dean9703111/data-deidentification)（MIT 授權），感謝原作者。「與原專案的差異」之後的說明大多沿用原專案 README。
 
@@ -92,7 +92,7 @@
 
 ## 快速開始
 
-**直接使用**：開啟 <https://nilesli.github.io/sped-deidentification/>，拖入檔案即可；沒有檔案的話，頁面下方有「用範例體驗」，一鍵載入 Word／PDF／掃描 PDF／Excel／Markdown 範例（見[範例檔下載與體驗](https://github.com/chuoneone/sped-deidentification#範例檔下載與體驗)）。
+**直接使用**：開啟 <https://chuoneone.github.io/sped-deidentification/>，拖入檔案即可；沒有檔案的話，頁面下方有「用範例體驗」，一鍵載入 Word／PDF／掃描 PDF／Excel／Markdown 範例（見[範例檔下載與體驗](https://github.com/chuoneone/sped-deidentification#範例檔下載與體驗)）。
 
 **本機執行**：
 
@@ -282,15 +282,15 @@ PDF 依原始座標逐頁排版（下圖 1 頁碼、2 頁面），表格與版�
 
 | 範例 | 格式 | 內容 | 下載 |
 |------|------|------|------|
-| 委外服務契約書 | Word | 4 頁契約：立契約書人、十二條條款、附件表格、簽署欄（含頁首頁尾） | [contract.docx](https://nilesli.github.io/sped-deidentification/samples/contract.docx) |
-| 委外服務契約書 | PDF | 同一份契約的 PDF 版本 | [contract.pdf](https://nilesli.github.io/sped-deidentification/samples/contract.pdf) |
-| 報價單 | Word | 3 頁報價單：客戶資料、20 項明細（跨頁表格）、聯絡窗口、簽回欄 | [quotation.docx](https://nilesli.github.io/sped-deidentification/samples/quotation.docx) |
-| 報價單 | PDF | 同一份報價單的 PDF 版本 | [quotation.pdf](https://nilesli.github.io/sped-deidentification/samples/quotation.pdf) |
-| 客戶資料 | Excel | 60 筆客戶＋聯絡紀錄 30 筆＋業務窗口，三個工作表 | [customers.xlsx](https://nilesli.github.io/sped-deidentification/samples/customers.xlsx) |
-| 客服信件 | TXT | 客服回覆信與引用的原始來信 | [support-email.txt](https://nilesli.github.io/sped-deidentification/samples/support-email.txt) |
-| 專案會議紀錄 | Markdown | 出席者、決議表格、待辦清單 | [meeting-notes.md](https://nilesli.github.io/sped-deidentification/samples/meeting-notes.md) |
-| 掃描文件 | 掃描 PDF | 5 頁純影像（需辨識）：中文信函（含手寫批註與機房照片）、藍筆手寫的會員申請表、橫式名冊表格、英文 Invoice（品項金額表、產品照片）、中英雙語名片；模擬掃描的灰階／彩色、輕微傾斜與紙張底色 | [scanned.pdf](https://nilesli.github.io/sped-deidentification/samples/scanned.pdf) |
-| 還原體驗 | Word + CSV | 已去識別化的契約書與其編碼表（在「還原」頁籤載入） | [contract.deid.docx](https://nilesli.github.io/sped-deidentification/samples/contract.deid.docx)、[contract.mapping.csv](https://nilesli.github.io/sped-deidentification/samples/contract.mapping.csv) |
+| 委外服務契約書 | Word | 4 頁契約：立契約書人、十二條條款、附件表格、簽署欄（含頁首頁尾） | [contract.docx](https://chuoneone.github.io/sped-deidentification/samples/contract.docx) |
+| 委外服務契約書 | PDF | 同一份契約的 PDF 版本 | [contract.pdf](https://chuoneone.github.io/sped-deidentification/samples/contract.pdf) |
+| 報價單 | Word | 3 頁報價單：客戶資料、20 項明細（跨頁表格）、聯絡窗口、簽回欄 | [quotation.docx](https://chuoneone.github.io/sped-deidentification/samples/quotation.docx) |
+| 報價單 | PDF | 同一份報價單的 PDF 版本 | [quotation.pdf](https://chuoneone.github.io/sped-deidentification/samples/quotation.pdf) |
+| 客戶資料 | Excel | 60 筆客戶＋聯絡紀錄 30 筆＋業務窗口，三個工作表 | [customers.xlsx](https://chuoneone.github.io/sped-deidentification/samples/customers.xlsx) |
+| 客服信件 | TXT | 客服回覆信與引用的原始來信 | [support-email.txt](https://chuoneone.github.io/sped-deidentification/samples/support-email.txt) |
+| 專案會議紀錄 | Markdown | 出席者、決議表格、待辦清單 | [meeting-notes.md](https://chuoneone.github.io/sped-deidentification/samples/meeting-notes.md) |
+| 掃描文件 | 掃描 PDF | 5 頁純影像（需辨識）：中文信函（含手寫批註與機房照片）、藍筆手寫的會員申請表、橫式名冊表格、英文 Invoice（品項金額表、產品照片）、中英雙語名片；模擬掃描的灰階／彩色、輕微傾斜與紙張底色 | [scanned.pdf](https://chuoneone.github.io/sped-deidentification/samples/scanned.pdf) |
+| 還原體驗 | Word + CSV | 已去識別化的契約書與其編碼表（在「還原」頁籤載入） | [contract.deid.docx](https://chuoneone.github.io/sped-deidentification/samples/contract.deid.docx)、[contract.mapping.csv](https://chuoneone.github.io/sped-deidentification/samples/contract.mapping.csv) |
 
 更多情境（人工調整、錯誤 CSV、自訂規則、格式邊界）的範例在 `examples/`，說明見 [examples/README.md](https://github.com/chuoneone/sped-deidentification/blob/main/examples/README.md)；`npm run examples` 可重新產生全部範例。
 

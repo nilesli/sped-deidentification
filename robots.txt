@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nilesli.github.io/sped-deidentification/sitemap.xml
+Sitemap: https://chuoneone.github.io/sped-deidentification/sitemap.xml
